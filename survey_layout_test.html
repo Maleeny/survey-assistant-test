@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Layout Test</title>
+</head>
+<body>
+
+<h1>Unfamiliar Survey</h1>
+
+<form>
+
+    <input type="hidden" name="session_id" value="12345">
+
+    <input type="submit" name="submit_button" value="Submit">
+
+    <input type="reset" name="reset_button" value="Reset">
+
+    <fieldset>
+        <legend>Which environment do you prefer?</legend>
+
+        <label>
+            <input type="radio" name="environment" value="1">
+            Quiet
+        </label>
+
+        <label>
+            <input type="radio" name="environment" value="2">
+            Busy
+        </label>
+    </fieldset>
+
+    <div>
+        <label for="frequency">How frequently do you exercise?</label>
+
+        <select id="frequency" name="frequency">
+            <option value="d">Daily</option>
+<option value="w">Weekly</option>
+<option value="r">Rarely</option>
+        </select>
+    </div>
+
+    <div>
+        <textarea
+            name="reflection"
+            aria-label="What motivates you to learn?"
+        ></textarea>
+    </div>
+
+    <div>
+        <p>Which activity do you prefer?</p>
+
+        <label>
+            <input type="radio" name="activity" value="Gaming">
+            Gaming
+        </label>
+
+        <label>
+            <input type="radio" name="activity" value="Reading">
+            Reading
+        </label>
+    </div>
+
+    <div>
+        <label for="nickname">What is your nickname?</label>
+        <input type="text" id="nickname" name="nickname"
+               value="ExamplePrivateData">
+    </div>
+
+</form>
+
+</body>
+</html>
