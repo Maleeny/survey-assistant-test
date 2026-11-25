@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unfamiliar Survey V2</title>
+</head>
+<body>
+
+<h1>Unfamiliar Survey V2</h1>
+
+<form>
+
+    <div>
+        <h2 id="learning-question">
+            Which learning method do you prefer?
+        </h2>
+
+        <select name="learning"
+                aria-labelledby="learning-question">
+            <option value="reading">Reading</option>
+            <option value="videos">Videos</option>
+            <option value="practice">Practice</option>
+        </select>
+    </div>
+
+    <div>
+        <h2>Which device do you prefer?</h2>
+
+        <label>
+            <input type="radio" name="device"
+                   value="computer">Computer
+        </label>
+
+        <label>
+            <input type="radio" name="device"
+                   value="phone">Phone
+        </label>
+    </div>
+
+    <table>
+        <tr>
+            <th>What motivates you to exercise?</th>
+            <td>
+                <textarea name="motivation"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Which activities do you enjoy?</legend>
+
+        <label>
+            <input type="checkbox" name="activities"
+                   value="gaming">Gaming
+        </label>
+
+        <label>
+            <input type="checkbox" name="activities"
+                   value="reading">Reading
+        </label>
+    </fieldset>
+
+</form>
+
+</body>
+</html>
